@@ -1,0 +1,568 @@
+DYN Index=0 Effects=17
+  Code=0 Name=Comprosso Classify=Compressor Index=0
+  Code=1 Name=Comparoma 4 Classify=Compressor Index=1
+  Code=2 Name=Blue Sustainer Classify=Compressor Index=2
+  Code=3 Name=Squeezer Classify=Compressor Index=3
+  Code=10 Name=Affinity Boost Classify=Boost Index=4
+  Code=11 Name=Beefy Boost Classify=Boost Index=5
+  Code=12 Name=Pristine Boost Classify=Boost Index=6
+  Code=14 Name=Forest Boost Classify=Boost Index=7
+  Code=16 Name=Treble Ranger Classify=Boost Index=8
+  Code=19 Name=Gated Boost Classify=Boost Index=9
+  Code=20 Name=Micro Boost Classify=Boost Index=10
+  Code=21 Name=Creamy Classify=Boost Index=11
+  Code=25 Name=FET Boost Classify=Boost Index=12
+  Code=26 Name=Enhancer Classify=Boost Index=13
+  Code=27 Name=AI Gate Classify=Noise Gate Index=14
+  Code=28 Name=Fast Gate Classify=Noise Gate Index=15
+  Code=29 Name=Custom Gate Classify=Noise Gate Index=16
+FREQ Index=1 Effects=47
+  Code=16777216 Name=Acoustic Refiner Classify=Acoustic Index=0
+  Code=16777217 Name=AC Sim Classify=Acoustic Index=1
+  Code=16777219 Name=Low Pass Classify=Filter Index=2
+  Code=16777220 Name=Band Pass Classify=Filter Index=3
+  Code=16777221 Name=High Pass Classify=Filter Index=4
+  Code=16777222 Name=Notch Classify=Filter Index=5
+  Code=16777223 Name=Peak Classify=Filter Index=6
+  Code=16777224 Name=Low Shelf Classify=Filter Index=7
+  Code=16777225 Name=High Shelf Classify=Filter Index=8
+  Code=16777226 Name=Tilt EQ Classify=Filter Index=9
+  Code=16777227 Name=Moo VCF LP Classify=Filter Index=10
+  Code=16777228 Name=Moo VCF BP Classify=Filter Index=11
+  Code=16777229 Name=Moo VCF HP Classify=Filter Index=12
+  Code=16777232 Name=Toucher G Classify=Envelope Filter Index=13
+  Code=16777233 Name=Toucher B Classify=Envelope Filter Index=14
+  Code=16777234 Name=Moo VCF Env Classify=Envelope Filter Index=15
+  Code=16777235 Name=Envelope Classify=Envelope Filter Index=16
+  Code=16777238 Name=Crier G Classify=Auto Filter Index=17
+  Code=16777239 Name=Crier B Classify=Auto Filter Index=18
+  Code=16777240 Name=LFO Filter Classify=Auto Filter Index=19
+  Code=16777236 Name=Vocal Filter Classify=Auto Filter Index=20
+  Code=16777297 Name=Path Filter 4 Classify=Auto Filter Index=21
+  Code=16777242 Name=Path Filter 8 Classify=Auto Filter Index=22
+  Code=16777243 Name=Pattern Filter Classify=Auto Filter Index=23
+  Code=16777253 Name=Analog Octa 1 Classify=Pitch Index=24
+  Code=16777287 Name=Analog Octa 2 Classify=Pitch Index=25
+  Code=16777286 Name=Digital Octa Classify=Pitch Index=26
+  Code=16777254 Name=Dual Pitch Classify=Pitch Index=27
+  Code=16777288 Name=Quad Pitch Classify=Pitch Index=28
+  Code=16777301 Name=Classic PS Classify=Pitch Index=29
+  Code=16777255 Name=Pitch Shift Classify=Pitch Index=30
+  Code=16777257 Name=Detune Classify=Pitch Index=31
+  Code=16777258 Name=Dual Detune Classify=Pitch Index=32
+  Code=16777285 Name=Quad Detune Classify=Pitch Index=33
+  Code=16777284 Name=80s Detune Classify=Pitch Index=34
+  Code=16777259 Name=String Shifter Classify=Pitch Index=35
+  Code=16777293 Name=Harmonizer 1 Classify=Pitch Index=36
+  Code=16777294 Name=Harmonizer 2 Classify=Pitch Index=37
+  Code=16777261 Name=12-Stringer Classify=Special Index=38
+  Code=16777262 Name=Bit Krusher Classify=Special Index=39
+  Code=16777263 Name=Ring Mod Classify=Special Index=40
+  Code=16777266 Name=Telephone Line Classify=Special Index=41
+  Code=16777267 Name=Satisfaction Classify=Special Index=42
+  Code=16777268 Name=Mic Lab Classify=Special Index=43
+  Code=234881024 Name=Pitch Correction Classify=Vocal Index=44
+  Code=234881025 Name=AT-Tune Classify=Vocal Index=45
+  Code=234881026 Name=Vocal Harmony Classify=Vocal Index=46
+WAH Index=2 Effects=13
+  Code=83886080 Name=Clay Wah Classify=Wah Index=0
+  Code=83886081 Name=Voxy Wah Classify=Wah Index=1
+  Code=83886082 Name=Voxy Wah+ Classify=Wah Index=2
+  Code=83886083 Name=Color Wah Classify=Wah Index=3
+  Code=83886084 Name=Funky Wah Classify=Wah Index=4
+  Code=83886085 Name=Magic Wah Classify=Wah Index=5
+  Code=83886086 Name=Soul Press Classify=Wah Index=6
+  Code=83886087 Name=Bass Press Classify=Wah Index=7
+  Code=83886088 Name=Cry Wah Classify=Wah Index=8
+  Code=83886089 Name=Cry Wah+ Classify=Wah Index=9
+  Code=83886090 Name=Petrus Wah Classify=Wah Index=10
+  Code=83886091 Name=Sandman Wah Classify=Wah Index=11
+  Code=83886092 Name=Chili Wah Classify=Wah Index=12
+DRV Index=3 Effects=39
+  Code=50331648 Name=Green Drive Classify=Overdrive Index=0
+  Code=50331649 Name=Green 9 Classify=Overdrive Index=1
+  Code=50331650 Name=Yellow Drive Classify=Overdrive Index=2
+  Code=50331652 Name=Swarm Drive Classify=Overdrive Index=3
+  Code=50331654 Name=Super Drive Classify=Overdrive Index=4
+  Code=50331656 Name=Screamood Classify=Overdrive Index=5
+  Code=50331657 Name=Dr. Blues Classify=Overdrive Index=6
+  Code=50331658 Name=Force Drive Classify=Overdrive Index=7
+  Code=50331659 Name=Tube Clipper Classify=Overdrive Index=8
+  Code=50331662 Name=Blues Butter Classify=Overdrive Index=9
+  Code=50331663 Name=Grand Driver Classify=Overdrive Index=10
+  Code=50331664 Name=Zen Garden Classify=Overdrive Index=11
+  Code=50331665 Name=Direct Touch Classify=Overdrive Index=12
+  Code=50331668 Name=Faun Drive Classify=Overdrive Index=13
+  Code=50331670 Name=Amore Eterno Classify=Overdrive Index=14
+  Code=50331676 Name=Precise Attack Classify=Overdrive Index=15
+  Code=50331678 Name=Magic T Classify=Overdrive Index=16
+  Code=50331728 Name=Prince of Drive Classify=Overdrive Index=17
+  Code=50331732 Name=Noble Drive Classify=Overdrive Index=18
+  Code=50331682 Name=Big Pie Classify=Fuzz Index=19
+  Code=50331684 Name=Face Fuzz Classify=Fuzz Index=20
+  Code=50331686 Name=Bend Fuzz Classify=Fuzz Index=21
+  Code=50331731 Name=Face Fuzz Ge Classify=Fuzz Index=22
+  Code=50331689 Name=Plustortion Classify=Distortion Index=23
+  Code=50331690 Name=Smooth Dist Classify=Distortion Index=24
+  Code=50331691 Name=Black Tail Classify=Distortion Index=25
+  Code=50331693 Name=Governor Classify=Distortion Index=26
+  Code=50331694 Name=Shredder Classify=Distortion Index=27
+  Code=50331696 Name=Crunchist Classify=Distortion Index=28
+  Code=50331697 Name=Metaland Classify=Distortion Index=29
+  Code=50331698 Name=Rebel Classify=Distortion Index=30
+  Code=50331702 Name=Pleximaker Classify=Distortion Index=31
+  Code=50331703 Name=Panama Lead Classify=Distortion Index=32
+  Code=50331730 Name=Fryman Dist Classify=Distortion Index=33
+  Code=50331711 Name=Solid Steel Classify=Bass Index=34
+  Code=50331712 Name=Bass OD Classify=Bass Index=35
+  Code=50331716 Name=Behemoth M Classify=Bass Index=36
+  Code=50331729 Name=Basshammer Classify=Bass Index=37
+  Code=50331713 Name=Bass Grinder HQ Classify=Bass Index=38
+AMP Index=4 Effects=93
+  Code=117440512 Name=Tweed Chap Classify=Clean Index=0
+  Code=117440513 Name=Tweed Lux Classify=Clean Index=1
+  Code=117440514 Name=Tweed Prince Classify=Clean Index=2
+  Code=117440515 Name=Baseman Norm Classify=Clean Index=3
+  Code=117440516 Name=Black Twin Classify=Clean Index=4
+  Code=117440517 Name=Black Deluxe Classify=Clean Index=5
+  Code=117440518 Name=Black Deluxe+ Classify=Clean Index=6
+  Code=117440519 Name=Black Prince Classify=Clean Index=7
+  Code=117440520 Name=Black Super Classify=Clean Index=8
+  Code=117440521 Name=Black Vibra Classify=Clean Index=9
+  Code=117440522 Name=Brown King Clean Classify=Clean Index=10
+  Code=117440523 Name=Brown Vibra Classify=Clean Index=11
+  Code=117440524 Name=Brown Concert Classify=Clean Index=12
+  Code=117440639 Name=Brown Super Classify=Clean Index=13
+  Code=117440525 Name=Silver Twin Classify=Clean Index=14
+  Code=117440526 Name=Silver Master Classify=Clean Index=15
+  Code=117440527 Name=Superb Dual Clean Classify=Clean Index=16
+  Code=117440528 Name=Voxy 15 TB Classify=Clean Index=17
+  Code=117440529 Name=Voxy 30HW Norm Classify=Clean Index=18
+  Code=117440530 Name=Hiway 103 Norm Classify=Clean Index=19
+  Code=117440531 Name=Watchman Classify=Clean Index=20
+  Code=117440532 Name=Jazz Clean Classify=Clean Index=21
+  Code=117440533 Name=Emperor Clean Classify=Clean Index=22
+  Code=117440534 Name=Match 30 Clean Classify=Clean Index=23
+  Code=117440535 Name=Tang A30 Clean Classify=Clean Index=24
+  Code=117440537 Name=Superstar Clean Classify=Clean Index=25
+  Code=117440538 Name=Glacian Clean Classify=Clean Index=26
+  Code=117440539 Name=Dr. 38 Clean Classify=Clean Index=27
+  Code=117440540 Name=Dr. 66 Classify=Clean Index=28
+  Code=117440543 Name=Pendragon Clean Classify=Clean Index=29
+  Code=117440635 Name=Pendragon Clean+ Classify=Clean Index=30
+  Code=117440544 Name=Press Wrecker Classify=Clean Index=31
+  Code=117440545 Name=Pool Wrecker Classify=Clean Index=32
+  Code=117440546 Name=Hot Kitty Clean Classify=Clean Index=33
+  Code=117440547 Name=Soloist 100 Clean Classify=Clean Index=34
+  Code=117440643 Name=Soloist 100 Clean HQ Classify=Clean Index=35
+  Code=117440637 Name=Dumbell ODS 1 Classify=Clean Index=36
+  Code=117440649 Name=Petrus Clean HQ Classify=Clean Index=37
+  Code=117440548 Name=Baseman Bright Classify=Drive Index=38
+  Code=117440550 Name=Brown King Drive Classify=Drive Index=39
+  Code=117440551 Name=Voxy 30HW TB Classify=Drive Index=40
+  Code=117440552 Name=Superb Dual Drive Classify=Drive Index=41
+  Code=117440553 Name=Marshell Blues Classify=Drive Index=42
+  Code=117440554 Name=Marshell 45 Classify=Drive Index=43
+  Code=117440555 Name=Marshell 45+ Classify=Drive Index=44
+  Code=117440556 Name=Marshell 45 Jump Classify=Drive Index=45
+  Code=117440557 Name=Marshell 50 Classify=Drive Index=46
+  Code=117440558 Name=Marshell 50+ Classify=Drive Index=47
+  Code=117440559 Name=Marshell 50 Jump Classify=Drive Index=48
+  Code=117440560 Name=Marshell SLP Classify=Drive Index=49
+  Code=117440561 Name=Marshell SLP+ Classify=Drive Index=50
+  Code=117440562 Name=Marshell SLP Jump Classify=Drive Index=51
+  Code=117440565 Name=Marshell 800 Classify=Drive Index=52
+  Code=117440636 Name=Pendragon Drive Classify=Drive Index=53
+  Code=117440572 Name=Messe IIC+ Classify=Drive Index=54
+  Code=117440573 Name=Glacian Drive Classify=Drive Index=55
+  Code=117440574 Name=Tang A30 Drive Classify=Drive Index=56
+  Code=117440578 Name=Fryman B Classify=Drive Index=57
+  Code=117440581 Name=Boger XT Blue V Classify=Drive Index=58
+  Code=117440582 Name=Boger XT Blue M Classify=Drive Index=59
+  Code=117440583 Name=Soloist 100 Crunch Classify=Drive Index=60
+  Code=117440644 Name=Soloist 100 Crunch HQ Classify=Drive Index=61
+  Code=117440584 Name=Emperor Drive Classify=Drive Index=62
+  Code=117440585 Name=Dr. 38 Drive Classify=Drive Index=63
+  Code=117440586 Name=Superstar Drive Classify=Drive Index=64
+  Code=117440587 Name=Hot Kitty Drive Classify=Drive Index=65
+  Code=117440588 Name=Dumbell ODS 2 Classify=Drive Index=66
+  Code=117440650 Name=Petrus Crunch HQ Classify=Drive Index=67
+  Code=117440590 Name=Marshell 900 Classify=Hi Gain Index=68
+  Code=117440595 Name=Tang R100 Classify=Hi Gain Index=69
+  Code=117440600 Name=Messe IV Lead Classify=Hi Gain Index=70
+  Code=117440601 Name=Soloist 100 Lead Classify=Hi Gain Index=71
+  Code=117440645 Name=Soloist 100 Lead HQ Classify=Hi Gain Index=72
+  Code=117440602 Name=Eddie 51 Classify=Hi Gain Index=73
+  Code=117440606 Name=Fryman HB Classify=Hi Gain Index=74
+  Code=117440609 Name=Engle Saga 1 Classify=Hi Gain Index=75
+  Code=117440610 Name=Engle Saga 2 Classify=Hi Gain Index=76
+  Code=117440611 Name=Powerengle Lead Classify=Hi Gain Index=77
+  Code=117440613 Name=Dizzle VH B Classify=Hi Gain Index=78
+  Code=117440614 Name=Dizzle VH S Classify=Hi Gain Index=79
+  Code=117440616 Name=Rector Dual V Classify=Hi Gain Index=80
+  Code=117440617 Name=Rector Dual M Classify=Hi Gain Index=81
+  Code=117440618 Name=Dizzle VH+ B Classify=Hi Gain Index=82
+  Code=117440619 Name=Dizzle VH+ S Classify=Hi Gain Index=83
+  Code=117440623 Name=Boger XT Red V Classify=Hi Gain Index=84
+  Code=117440624 Name=Boger XT Red M Classify=Hi Gain Index=85
+  Code=117440651 Name=Petrus Lead HQ Classify=Hi Gain Index=86
+  Code=117440627 Name=Ampage Classic Classify=Bass Index=87
+  Code=117440628 Name=Ampage Flip Classify=Bass Index=88
+  Code=117440629 Name=Voxy Bass Classify=Bass Index=83
+  Code=117440630 Name=Tang Bass Classify=Bass Index=89
+  Code=117440631 Name=Messe Bass 400 Classify=Bass Index=90
+  Code=117440632 Name=Power Amp Classify=Power Amp Index=91
+PRE AMP Index=5 Effects=94
+  Code=134217728 Name=Tweed Chap Classify=Clean Index=0
+  Code=134217729 Name=Tweed Lux Classify=Clean Index=1
+  Code=134217730 Name=Tweed Prince Classify=Clean Index=2
+  Code=134217731 Name=Baseman Norm Classify=Clean Index=3
+  Code=134217732 Name=Black Twin Classify=Clean Index=4
+  Code=134217733 Name=Black Deluxe Classify=Clean Index=5
+  Code=134217734 Name=Black Deluxe+ Classify=Clean Index=6
+  Code=134217735 Name=Black Prince Classify=Clean Index=7
+  Code=134217736 Name=Black Super Classify=Clean Index=8
+  Code=134217737 Name=Black Vibra Classify=Clean Index=9
+  Code=134217738 Name=Brown King Clean Classify=Clean Index=10
+  Code=134217739 Name=Brown Vibra Classify=Clean Index=11
+  Code=134217740 Name=Brown Concert Classify=Clean Index=12
+  Code=134217863 Name=Brown Super Classify=Clean Index=13
+  Code=134217741 Name=Silver Twin Classify=Clean Index=14
+  Code=134217742 Name=Silver Master Classify=Clean Index=15
+  Code=134217743 Name=Superb Dual Clean Classify=Clean Index=16
+  Code=134217744 Name=Voxy 15 TB Classify=Clean Index=17
+  Code=134217745 Name=Voxy 30HW Norm Classify=Clean Index=18
+  Code=134217746 Name=Hiway 103 Norm Classify=Clean Index=19
+  Code=134217747 Name=Watchman Classify=Clean Index=20
+  Code=134217748 Name=Jazz Clean Classify=Clean Index=21
+  Code=134217749 Name=Emperor Clean Classify=Clean Index=22
+  Code=134217750 Name=Match 30 Clean Classify=Clean Index=23
+  Code=134217751 Name=Tang A30 Clean Classify=Clean Index=24
+  Code=134217753 Name=Superstar Clean Classify=Clean Index=25
+  Code=134217754 Name=Glacian Clean Classify=Clean Index=26
+  Code=134217755 Name=Dr. 38 Clean Classify=Clean Index=27
+  Code=134217756 Name=Dr. 66 Classify=Clean Index=28
+  Code=134217759 Name=Pendragon Clean Classify=Clean Index=29
+  Code=134217854 Name=Pendragon Clean+ Classify=Clean Index=30
+  Code=134217760 Name=Press Wrecker Classify=Clean Index=31
+  Code=134217761 Name=Pool Wrecker Classify=Clean Index=32
+  Code=134217762 Name=Hot Kitty Clean Classify=Clean Index=33
+  Code=134217763 Name=Soloist 100 Clean Classify=Clean Index=34
+  Code=117440643 Name=Soloist 100 Clean HQ Classify=Clean Index=35
+  Code=134217861 Name=Dumbell ODS 1 Classify=Clean Index=36
+  Code=117440649 Name=Petrus Clean HQ Classify=Clean Index=37
+  Code=134217764 Name=Baseman Bright Classify=Drive Index=38
+  Code=134217766 Name=Brown King Drive Classify=Drive Index=39
+  Code=134217767 Name=Voxy 30HW TB Classify=Drive Index=40
+  Code=134217768 Name=Superb Dual Drive Classify=Drive Index=41
+  Code=134217769 Name=Marshell Blues Classify=Drive Index=42
+  Code=134217770 Name=Marshell 45 Classify=Drive Index=43
+  Code=134217771 Name=Marshell 45+ Classify=Drive Index=44
+  Code=134217772 Name=Marshell 45 Jump Classify=Drive Index=45
+  Code=134217773 Name=Marshell 50 Classify=Drive Index=46
+  Code=134217774 Name=Marshell 50+ Classify=Drive Index=47
+  Code=134217775 Name=Marshell 50 Jump Classify=Drive Index=48
+  Code=134217776 Name=Marshell SLP Classify=Drive Index=49
+  Code=134217777 Name=Marshell SLP+ Classify=Drive Index=50
+  Code=134217778 Name=Marshell SLP Jump Classify=Drive Index=51
+  Code=134217781 Name=Marshell 800 Classify=Drive Index=52
+  Code=134217855 Name=Pendragon Drive Classify=Drive Index=53
+  Code=134217788 Name=Messe IIC+ Classify=Drive Index=54
+  Code=134217789 Name=Glacian Drive Classify=Drive Index=55
+  Code=134217790 Name=Tang A30 Drive Classify=Drive Index=56
+  Code=134217794 Name=Fryman B Classify=Drive Index=57
+  Code=134217797 Name=Boger XT Blue V Classify=Drive Index=58
+  Code=134217798 Name=Boger XT Blue M Classify=Drive Index=59
+  Code=134217799 Name=Soloist 100 Crunch Classify=Drive Index=60
+  Code=117440644 Name=Soloist 100 Crunch HQ Classify=Drive Index=61
+  Code=134217800 Name=Emperor Drive Classify=Drive Index=62
+  Code=134217801 Name=Dr. 38 Drive Classify=Drive Index=63
+  Code=134217802 Name=Superstar Drive Classify=Drive Index=64
+  Code=134217803 Name=Hot Kitty Drive Classify=Drive Index=65
+  Code=134217804 Name=Dumbell ODS 2 Classify=Drive Index=66
+  Code=117440650 Name=Petrus Crunch HQ Classify=Drive Index=67
+  Code=134217806 Name=Marshell 900 Classify=Hi Gain Index=68
+  Code=134217811 Name=Tang R100 Classify=Hi Gain Index=69
+  Code=134217816 Name=Messe IV Lead Classify=Hi Gain Index=70
+  Code=134217817 Name=Soloist 100 Lead Classify=Hi Gain Index=71
+  Code=117440645 Name=Soloist 100 Lead HQ Classify=Hi Gain Index=72
+  Code=134217818 Name=Eddie 51 Classify=Hi Gain Index=73
+  Code=134217823 Name=Fryman HB Classify=Hi Gain Index=74
+  Code=134217826 Name=Engle Saga 1 Classify=Hi Gain Index=75
+  Code=134217827 Name=Engle Saga 2 Classify=Hi Gain Index=76
+  Code=134217828 Name=Powerengle Lead Classify=Hi Gain Index=77
+  Code=134217830 Name=Dizzle VH B Classify=Hi Gain Index=78
+  Code=134217831 Name=Dizzle VH S Classify=Hi Gain Index=79
+  Code=134217833 Name=Rector Dual V Classify=Hi Gain Index=80
+  Code=134217834 Name=Rector Dual M Classify=Hi Gain Index=81
+  Code=134217835 Name=Dizzle VH+ B Classify=Hi Gain Index=82
+  Code=134217836 Name=Dizzle VH+ S Classify=Hi Gain Index=83
+  Code=134217840 Name=Boger XT Red V Classify=Hi Gain Index=84
+  Code=134217841 Name=Boger XT Red M Classify=Hi Gain Index=85
+  Code=117440651 Name=Petrus Lead HQ Classify=Hi Gain Index=86
+  Code=134217844 Name=Ampage Classic Classify=Bass Index=87
+  Code=134217845 Name=Ampage Flip Classify=Bass Index=88
+  Code=134217846 Name=Alchemy Pre Classify=Bass Index=89
+  Code=134217847 Name=Voxy Bass Classify=Bass Index=90
+  Code=134217848 Name=Tang Bass Classify=Bass Index=91
+  Code=134217849 Name=Messe Bass 400 Classify=Bass Index=92
+  Code=134217853 Name=Acoustic Pre Classify=Acoustic Index=93
+CAB Index=6 Effects=68
+  Code=150994944 Name=Voxy 1x10 A Classify=Guitar Cab S Index=0
+  Code=150994945 Name=Voxy 1x10 B Classify=Guitar Cab S Index=1
+  Code=150994987 Name=Voxy GRN 1x10 Classify=Guitar Cab S Index=2
+  Code=150994988 Name=Voxy Custom 1x10 Classify=Guitar Cab S Index=3
+  Code=150994946 Name=TWD 1x10 Classify=Guitar Cab S Index=4
+  Code=150994989 Name=TWD VN 1x10 Classify=Guitar Cab S Index=5
+  Code=150994947 Name=Golden 1x10 Classify=Guitar Cab S Index=6
+  Code=150994948 Name=UK Custom 1x12 Classify=Guitar Cab S Index=7
+  Code=150994949 Name=TWD 1x12 Classify=Guitar Cab S Index=8
+  Code=150994950 Name=TWD Dlx 1x12 Classify=Guitar Cab S Index=9
+  Code=150994951 Name=Black 1x12 Classify=Guitar Cab S Index=10
+  Code=150994952 Name=Black Dlx 1x12 A Classify=Guitar Cab S Index=11
+  Code=150994997 Name=Black Dlx 1x12 B Classify=Guitar Cab S Index=12
+  Code=150994994 Name=Black Dlx 1x12 C Classify=Guitar Cab S Index=13
+  Code=150994990 Name=Golden 1x12 Classify=Guitar Cab S Index=14
+  Code=150994953 Name=Boger 2x12 A Classify=Guitar Cab S Index=15
+  Code=150994998 Name=Boger 2x12 B Classify=Guitar Cab S Index=16
+  Code=150994999 Name=Glacian 2x12 A Classify=Guitar Cab S Index=17
+  Code=150994954 Name=Glacian 2x12 B Classify=Guitar Cab S Index=18
+  Code=150994955 Name=Tang 2x12 A Classify=Guitar Cab S Index=19
+  Code=150994956 Name=Tang 2x12 B Classify=Guitar Cab S Index=20
+  Code=150994957 Name=Messe 2x12 Classify=Guitar Cab S Index=21
+  Code=150994958 Name=Rector 2x12 A Classify=Guitar Cab S Index=22
+  Code=150995000 Name=Rector 2x12 B Classify=Guitar Cab S Index=23
+  Code=150995003 Name=Rector 2x12 C Classify=Guitar Cab S Index=24
+  Code=150994959 Name=Voxy 2x12 A Classify=Guitar Cab S Index=25
+  Code=150994960 Name=Voxy 2x12 B Classify=Guitar Cab S Index=26
+  Code=150995006 Name=Voxy Cream 2x12 Classify=Guitar Cab S Index=27
+  Code=150995008 Name=Voxy Green 2x12 Classify=Guitar Cab S Index=28
+  Code=150995007 Name=Voxy Gold 2x12 Classify=Guitar Cab S Index=29
+  Code=150994961 Name=Boger 4x10 A Classify=Guitar Cab L Index=30
+  Code=150995010 Name=Boger 4x10 B Classify=Guitar Cab L Index=31
+  Code=150994962 Name=Super 4x10 A Classify=Guitar Cab L Index=32
+  Code=150994963 Name=Super 4x10 B Classify=Guitar Cab L Index=33
+  Code=150994964 Name=Boger 4x12 A Classify=Guitar Cab L Index=34
+  Code=150994965 Name=Boger 4x12 B Classify=Guitar Cab L Index=35
+  Code=150994966 Name=Dizzle 4x12 A Classify=Guitar Cab L Index=36
+  Code=150994967 Name=Dizzle 4x12 B Classify=Guitar Cab L Index=37
+  Code=150994968 Name=Eddie 4x12 A Classify=Guitar Cab L Index=38
+  Code=150994969 Name=Eddie 4x12 B Classify=Guitar Cab L Index=39
+  Code=150994970 Name=Engle 4x12 A Classify=Guitar Cab L Index=40
+  Code=150995012 Name=Engle 4x12 B Classify=Guitar Cab L Index=41
+  Code=150994971 Name=Fryman 4x12 A Classify=Guitar Cab L Index=42
+  Code=150994972 Name=Fryman 4x12 B Classify=Guitar Cab L Index=43
+  Code=150994973 Name=UK Cream 4x12 Classify=Guitar Cab L Index=44
+  Code=150995020 Name=UK Check 4x12 Classify=Guitar Cab L Index=45
+  Code=150994974 Name=UK Green 4x12 Classify=Guitar Cab L Index=46
+  Code=150994975 Name=UK Custom 4x12 Classify=Guitar Cab L Index=47
+  Code=150994976 Name=UK Vintage 4x12 Classify=Guitar Cab L Index=48
+  Code=150994977 Name=UK Black 4x12 Classify=Guitar Cab L Index=49
+  Code=150995024 Name=UK 82 4x12 Classify=Guitar Cab L Index=50
+  Code=150994978 Name=Tang 4x12 A Classify=Guitar Cab L Index=51
+  Code=150994979 Name=Tang 4x12 B Classify=Guitar Cab L Index=52
+  Code=150995025 Name=Tang 4x12 C Classify=Guitar Cab L Index=53
+  Code=150994980 Name=Messe 4x12 A Classify=Guitar Cab L Index=54
+  Code=150995027 Name=Messe 4x12 B Classify=Guitar Cab L Index=55
+  Code=150994981 Name=Rector 4x12 A Classify=Guitar Cab L Index=56
+  Code=150994982 Name=Rector 4x12 B Classify=Guitar Cab L Index=57
+  Code=150995034 Name=Rector 4x12 C Classify=Guitar Cab L Index=58
+  Code=150995033 Name=Rector 4x12 D Classify=Guitar Cab L Index=59
+  Code=150994983 Name=Ampage 2x10 A Classify=Bass Cab Index=60
+  Code=150994984 Name=Ampage 2x10 B Classify=Bass Cab Index=61
+  Code=150995039 Name=Ampage 2x10 C Classify=Bass Cab Index=62
+  Code=150995040 Name=Ampage 2x10 D Classify=Bass Cab Index=63
+  Code=150994985 Name=Ampage 4x10 A Classify=Bass Cab Index=64
+  Code=150994986 Name=Ampage 4x10 B Classify=Bass Cab Index=65
+  Code=150995043 Name=Ampage 4x10 C Classify=Bass Cab Index=66
+  Code=150995046 Name=Ampage 4x10 D Classify=Bass Cab Index=67
+IR Index=7 Effects=80
+  Code=167772220 Name=Dreadnought 1 Classify=Acoustic IR Index=0
+  Code=167772221 Name=Dreadnought 2 Classify=Acoustic IR Index=1
+  Code=167772222 Name=Orchestral Classify=Acoustic IR Index=2
+  Code=167772223 Name=Jumbo Classify=Acoustic IR Index=3
+  Code=167772224 Name=Hum Bird Classify=Acoustic IR Index=4
+  Code=167772225 Name=Auditorium Classify=Acoustic IR Index=5
+  Code=167772226 Name=Classical Classify=Acoustic IR Index=6
+  Code=167772227 Name=Mandolin Classify=Acoustic IR Index=7
+  Code=167772228 Name=Fretless Bass Classify=Acoustic IR Index=8
+  Code=167772229 Name=Double Bass Classify=Acoustic IR Index=9
+  Code=167772230 Name=Blue 1x12 Close Classify=Celestion® IR Index=10
+  Code=167772231 Name=Blue 1x12 Open Classify=Celestion® IR Index=11
+  Code=167772232 Name=G12H-C 1x12 Close Classify=Celestion® IR Index=12
+  Code=167772233 Name=G12H-C 1x12 Open Classify=Celestion® IR Index=13
+  Code=167772234 Name=Blue 2x12 Close Classify=Celestion® IR Index=14
+  Code=167772235 Name=Blue 2x12 Open Classify=Celestion® IR Index=15
+  Code=167772236 Name=G12H-A 2x12 Close Classify=Celestion® IR Index=16
+  Code=167772237 Name=G12H-A 2x12 Open Classify=Celestion® IR Index=17
+  Code=167772238 Name=G12H-C 2x12 Close Classify=Celestion® IR Index=18
+  Code=167772239 Name=G12H-C 2x12 Open Classify=Celestion® IR Index=19
+  Code=167772240 Name=G12M-C 2x12 Close Classify=Celestion® IR Index=20
+  Code=167772241 Name=G12M-C 2x12 Open Classify=Celestion® IR Index=21
+  Code=167772242 Name=Green 2x12 Classify=Celestion® IR Index=22
+  Code=167772243 Name=V30 2x12 Classify=Celestion® IR Index=23
+  Code=167772244 Name=G12-65 4x12 Classify=Celestion® IR Index=24
+  Code=167772245 Name=G12H-A 4x12 Classify=Celestion® IR Index=25
+  Code=167772246 Name=G12H-C 4x12 Classify=Celestion® IR Index=26
+  Code=167772247 Name=G12M-C 4x12 Classify=Celestion® IR Index=27
+  Code=167772248 Name=Green 4x12 Classify=Celestion® IR Index=28
+  Code=167772249 Name=V30 4x12 Classify=Celestion® IR Index=29
+  Code=168820736 Name=User IR 1 Classify=User IR Index=30
+  Code=168820737 Name=User IR 2 Classify=User IR Index=31
+  Code=168820738 Name=User IR 3 Classify=User IR Index=32
+  Code=168820739 Name=User IR 4 Classify=User IR Index=33
+  Code=168820740 Name=User IR 5 Classify=User IR Index=34
+  Code=168820741 Name=User IR 6 Classify=User IR Index=35
+  Code=168820742 Name=User IR 7 Classify=User IR Index=36
+  Code=168820743 Name=User IR 8 Classify=User IR Index=37
+  Code=168820744 Name=User IR 9 Classify=User IR Index=38
+  Code=168820745 Name=User IR 10 Classify=User IR Index=39
+  Code=168820746 Name=User IR 11 Classify=User IR Index=40
+  Code=168820747 Name=User IR 12 Classify=User IR Index=41
+  Code=168820748 Name=User IR 13 Classify=User IR Index=42
+  Code=168820749 Name=User IR 14 Classify=User IR Index=43
+  Code=168820750 Name=User IR 15 Classify=User IR Index=44
+  Code=168820751 Name=User IR 16 Classify=User IR Index=45
+  Code=168820752 Name=User IR 17 Classify=User IR Index=46
+  Code=168820753 Name=User IR 18 Classify=User IR Index=47
+  Code=168820754 Name=User IR 19 Classify=User IR Index=48
+  Code=168820755 Name=User IR 20 Classify=User IR Index=49
+  Code=168820756 Name=User IR 21 Classify=User IR Index=50
+  Code=168820757 Name=User IR 22 Classify=User IR Index=51
+  Code=168820758 Name=User IR 23 Classify=User IR Index=52
+  Code=168820759 Name=User IR 24 Classify=User IR Index=53
+  Code=168820760 Name=User IR 25 Classify=User IR Index=54
+  Code=168820761 Name=User IR 26 Classify=User IR Index=55
+  Code=168820762 Name=User IR 27 Classify=User IR Index=56
+  Code=168820763 Name=User IR 28 Classify=User IR Index=57
+  Code=168820764 Name=User IR 29 Classify=User IR Index=58
+  Code=168820765 Name=User IR 30 Classify=User IR Index=59
+  Code=168820766 Name=User IR 31 Classify=User IR Index=60
+  Code=168820767 Name=User IR 32 Classify=User IR Index=61
+  Code=168820768 Name=User IR 33 Classify=User IR Index=62
+  Code=168820769 Name=User IR 34 Classify=User IR Index=63
+  Code=168820770 Name=User IR 35 Classify=User IR Index=64
+  Code=168820771 Name=User IR 36 Classify=User IR Index=65
+  Code=168820772 Name=User IR 37 Classify=User IR Index=66
+  Code=168820773 Name=User IR 38 Classify=User IR Index=67
+  Code=168820774 Name=User IR 39 Classify=User IR Index=68
+  Code=168820775 Name=User IR 40 Classify=User IR Index=69
+  Code=168820776 Name=User IR 41 Classify=User IR Index=70
+  Code=168820777 Name=User IR 42 Classify=User IR Index=71
+  Code=168820778 Name=User IR 43 Classify=User IR Index=72
+  Code=168820779 Name=User IR 44 Classify=User IR Index=73
+  Code=168820780 Name=User IR 45 Classify=User IR Index=74
+  Code=168820781 Name=User IR 46 Classify=User IR Index=75
+  Code=168820782 Name=User IR 47 Classify=User IR Index=76
+  Code=168820783 Name=User IR 48 Classify=User IR Index=77
+  Code=168820784 Name=User IR 49 Classify=User IR Index=78
+  Code=168820785 Name=User IR 50 Classify=User IR Index=79
+EQ Index=8 Effects=10
+  Code=16777269 Name=Guitar EQ 1 Classify=EQ Index=0
+  Code=16777270 Name=Guitar EQ 2 Classify=EQ Index=1
+  Code=16777273 Name=Bass EQ 1 Classify=EQ Index=2
+  Code=16777274 Name=Bass EQ 2 Classify=EQ Index=3
+  Code=16777276 Name=V-EQ Classify=EQ Index=4
+  Code=16777277 Name=Graphic 7 Classify=EQ Index=5
+  Code=16777279 Name=Graphic 7B Classify=EQ Index=6
+  Code=16777298 Name=Para EQ 1 Classify=EQ Index=7
+  Code=16777292 Name=Para EQ 2 Classify=EQ Index=8
+  Code=16777283 Name=Graphic EQ Classify=EQ Index=9
+MOD Index=9 Effects=30
+  Code=67108864 Name=Aozora Chorus Classify=Chorus Index=0
+  Code=67108865 Name=Grand Choruium Classify=Chorus Index=1
+  Code=67108866 Name=Liquid C Classify=Chorus Index=2
+  Code=67108872 Name=Bass Chorus Classify=Chorus Index=3
+  Code=67108876 Name=Liquid Dream Classify=Chorus Index=4
+  Code=67108879 Name=3D Chorus Classify=Chorus Index=5
+  Code=67108881 Name=Flanger Classify=Flanger Index=6
+  Code=67108882 Name=Bass Flanger Classify=Flanger Index=7
+  Code=67108883 Name=Neg Flanger Classify=Flanger Index=8
+  Code=67108884 Name=Trem Flanger Classify=Flanger Index=9
+  Code=67108885 Name=Pulser Classify=Vibrato Index=10
+  Code=67108886 Name=Grand Vibrato Classify=Vibrato Index=11
+  Code=67108887 Name=Vibrato Classify=Vibrato Index=12
+  Code=67108888 Name=Vibrato T Classify=Vibrato Index=13
+  Code=67108889 Name=90 Phaser Classify=Phaser Index=14
+  Code=67108890 Name=Green Phaser Classify=Phaser Index=15
+  Code=67108891 Name=Stone Phaser Classify=Phaser Index=16
+  Code=67108893 Name=Notch Phaser Classify=Phaser Index=17
+  Code=67108894 Name=Pan Phaser Classify=Phaser Index=18
+  Code=67108895 Name=Minivibe Classify=Phaser Index=19
+  Code=67108896 Name=Revolver Classify=Phaser Index=20
+  Code=67108897 Name=Helicopter Classify=Tremolo Index=21
+  Code=67108905 Name=Custom Trem Classify=Tremolo Index=22
+  Code=67108906 Name=Rotary Classify=Rotary Index=23
+  Code=67108907 Name=Classic Stereolizer Classify=Expanding Index=24
+  Code=67108908 Name=Modern Stereolizer Classify=Expanding Index=25
+  Code=67108910 Name=Stereo Expander Classify=Expanding Index=26
+  Code=67108909 Name=Sweller Classify=Slow Attack Index=27
+  Code=67108916 Name=Freeze Classify=Special Index=28
+  Code=67108917 Name=Feedback Classify=Special Index=29
+DLY Index=10 Effects=32
+  Code=184549402 Name=Analog Delay M Classify=Delay Index=0
+  Code=184549403 Name=Analog Delay S Classify=Delay Index=1
+  Code=184549404 Name=BBD Delay M Classify=Delay Index=2
+  Code=184549405 Name=BBD Delay S Classify=Delay Index=3
+  Code=184549406 Name=Digital Delay M Classify=Delay Index=4
+  Code=184549407 Name=Digital Delay S Classify=Delay Index=5
+  Code=184549429 Name=Digital Delay HQ Classify=Delay Index=6
+  Code=184549408 Name=Tape Delay M Classify=Delay Index=7
+  Code=184549409 Name=Tape Delay S Classify=Delay Index=8
+  Code=184549410 Name=Dual Delay Classify=Delay Index=9
+  Code=184549411 Name=Ping-Pong Classify=Delay Index=10
+  Code=184549412 Name=Sweep Delay Classify=Delay Index=11
+  Code=184549413 Name=Tremolo Delay Classify=Delay Index=12
+  Code=184549414 Name=Lo-Fi Delay Classify=Delay Index=13
+  Code=184549415 Name=Ring Delay Classify=Delay Index=14
+  Code=184549416 Name=Reverse Delay Classify=Delay Index=15
+  Code=184549417 Name=Vintage Rack Classify=Delay Index=16
+  Code=184549418 Name=Ambience 1 Classify=Delay Index=17
+  Code=184549422 Name=Ambience 2 Classify=Delay Index=18
+  Code=184549423 Name=Infidelay 1 Classify=Delay Index=19
+  Code=184549424 Name=Infidelay 2 Classify=Delay Index=20
+  Code=184549389 Name=Sweetie Classify=Delay Index=21
+  Code=184549390 Name=Recaller Classify=Delay Index=22
+  Code=184549392 Name=Ekopress 80 Classify=Delay Index=23
+  Code=184549393 Name=Ekopress 900 Classify=Delay Index=24
+  Code=184549394 Name=Ekopress 999 Classify=Delay Index=25
+  Code=184549420 Name=2290 Mod Classify=Delay Index=26
+  Code=184549421 Name=2290 Ducker Classify=Delay Index=27
+  Code=184549425 Name=Multitap Echo Classify=Delay Index=28
+  Code=184549426 Name=Glitch Delay Classify=Delay Index=29
+  Code=184549427 Name=Icy Delay Classify=Delay Index=30
+  Code=184549428 Name=Bloodless Delay Classify=Delay Index=31
+RVB Index=11 Effects=14
+  Code=201326603 Name=Studio Classify=Reverb Index=0
+  Code=201326604 Name=Club Classify=Reverb Index=1
+  Code=201326605 Name=Concert Classify=Reverb Index=2
+  Code=201326606 Name=Arena Classify=Reverb Index=3
+  Code=201326607 Name=Small Plate Classify=Reverb Index=4
+  Code=201326608 Name=Large Plate Classify=Reverb Index=5
+  Code=201326614 Name=140 Plate HQ Classify=Reverb Index=6
+  Code=201326609 Name=Combo Spring Classify=Reverb Index=7
+  Code=201326610 Name=Tube Spring Classify=Reverb Index=8
+  Code=201326611 Name=Shimmer 1 Classify=Reverb Index=9
+  Code=201326612 Name=Shimmer 2 Classify=Reverb Index=10
+  Code=201326613 Name=Cloud Classify=Reverb Index=11
+  Code=201326615 Name=Silver Linings Classify=Reverb Index=12
+  Code=201326616 Name=Velvet Verb HQ Classify=Reverb Index=13
+FX SND Index=12 Effects=1
+  Code=100663297 Name=FX Loop Send Classify=FX Loop Index=0
+FX RTN Index=13 Effects=1
+  Code=100663298 Name=FX Loop Return Classify=FX Loop Index=0
+FX LOOP Index=14 Effects=1
+  Code=100663296 Name=FX Loop Classify=FX Loop Index=0
+VOL Index=15 Effects=1
+  Code=100663299 Name=Volume Classify=Volume Index=0
+CATCH Index=16 Effects=10
+  Code=251658240 Name=Tone Catch 1 Classify=Tone Catch Index=0
+  Code=251658241 Name=Tone Catch 2 Classify=Tone Catch Index=1
+  Code=251658242 Name=Tone Catch 3 Classify=Tone Catch Index=2
+  Code=251658243 Name=Tone Catch 4 Classify=Tone Catch Index=3
+  Code=251658244 Name=Tone Catch 5 Classify=Tone Catch Index=4
+  Code=251658245 Name=Tone Catch 6 Classify=Tone Catch Index=5
+  Code=251658246 Name=Tone Catch 7 Classify=Tone Catch Index=6
+  Code=251658247 Name=Tone Catch 8 Classify=Tone Catch Index=7
+  Code=251658248 Name=Tone Catch 9 Classify=Tone Catch Index=8
+  Code=251658249 Name=Tone Catch 10 Classify=Tone Catch Index=9
