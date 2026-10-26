@@ -1,0 +1,37 @@
+# Firmware binaries (large, can be regenerated from source)
+*.bin
+*.elf
+*.hex
+
+# VST plugins (proprietary, large)
+*.vst3
+*.vst
+*.component
+
+# Ghidra installation (download separately)
+ghidra_*/
+
+# Editor software (Flutter app - large, can be downloaded)
+"Ampero II"/
+
+# OS/IDE artifacts
+.DS_Store
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.iml
+
+# Analysis artifacts (can be regenerated)
+*.gpr
+ghidra_*.log
+
+# Large data files
+section*_resources.bin
+kernel_blob.bin
+app.so
+
+# Temporary files
+*.tmp
+*.temp
