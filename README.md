@@ -178,6 +178,53 @@ for module in data['PluginProperties']['Modules']['Catalog']:
 - [ ] **Map effect codes to implementations** - Cross-reference algorithm.json with firmware
 - [ ] **Document IR format** - Parse section3_resources.bin structure
 - [ ] **Build effect parameter map** - Link editor UI to firmware parameters
+- [x] **Analyze SHARC firmware structure** - Found .dxe embedded in ARM firmware (see below)
+- [x] **Document firmware update mechanism** - Editor uploads .dxe via `uploadSpecialFile` API
+
+## Key Findings (2026-10-26)
+
+### SHARC DSP Firmware (.dxe)
+
+The ADSP-21573 dual-core SHARC+ firmware is **embedded as binary blobs** in the ARM flash image, not as separate ELF files:
+
+| Core | Filename | String Location | File |
+|------|----------|-----------------|------|
+| Core1 | `MP-300_DSP_Main_Core1.dxe` | `0x602DD480` | section0_mainapp.elf |
+| Core2 | `MP-300_DSP_Main_Core2.dxe` | `0x0889B1A9` | firmware.elf |
+
+**Extracted section files** (`section1_core1.elf`, `section2_core2.elf`) are **not valid SHARC ELFs** — Ghidra 12.1.4 misidentifies them as ARM (no SHARC+ support). Actual .dxe binaries must be extracted from flash or obtained via vendor DSP update.
+
+### Firmware Update Mechanism (Flutter Editor)
+
+The editor (`Ampero II/data/app.so`) updates SHARC firmware via Hotone Cloud API:
+
+| Endpoint | Purpose |
+|----------|---------|
+| `POST /api/v1/lowerComputer/uploadSpecialFile` | **Upload SHARC .dxe** ("special file" = DSP firmware) |
+| `GET /api/v1/lowerComputer/backupInfoList` | List firmware backups |
+| `POST /api/v1/lowerComputer/uploadBackupInfoList` | Upload backup info |
+
+**Update flow:**
+1. Editor downloads firmware URL via `getFirmwareUpdateUrl`
+2. User selects `.bin` file → clicks "Update Now"
+3. Editor sends `deviceStartUpdateFirmware` USB command → device enters DFU mode
+4. For SHARC cores: editor uploads `.dxe` via `uploadSpecialFile`
+5. ARM writes .dxe to QSPI flash via FlexSPI
+6. On next boot: ARM loads Core1/Core2 .dxe from QSPI → SHARC via Link Port
+
+### Effect Catalog (algorithm.json)
+
+FREQ module (Index 1, codes `0x01xxxxxx`) pitch-related effects:
+| Effect | Code (hex) | Code (dec) |
+|--------|-----------|------------|
+| Pitch Shift | 0x01000027 | 16777255 |
+| Dual Pitch | 0x01000026 | 16777254 |
+| Quad Pitch | 0x01000048 | 16777288 |
+| Classic PS | 0x01000055 | 16777301 |
+| Harmonizer 1/2 | 0x0100004D/4E | 16777293/94 |
+| Vocal Harmony | 0x0E000002 | 234881026 | *(PREAMP module)*
+
+**"Pitch Shift HQ" (from V1.3.0 release notes) NOT present** in current algorithm.json — firmware version mismatch.
 
 ## References
 
